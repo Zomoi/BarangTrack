@@ -36,53 +36,57 @@
 </ul>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">📖Project Overview📖</h2>
+  <h2 tabindex="-1" class="heading-element" dir="auto">📖Project Overview</h2>
 </div>
 <p dir = "auto">
     This Community Management System is designed to assist local governments, non-profits, and community organizations in efficiently managing and tracking the involvement of community members across a range of programs. By centralizing data on member participation, volunteer hours, and engagement in sustainability initiatives, the system aims to foster greater community involvement and accountability. The system allows for easy access to data such as attendance at events, roles in volunteer programs, and contributions to sustainability projects, empowering organizations to make informed decisions, recognize dedicated individuals, and allocate resources more effectively for community growth and engagement.
 </p>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">🐍Python Concepts🐍</h2>
+  <h2 tabindex="-1" class="heading-element" dir="auto">🐍Python Concepts</h2>
 </div>
 <ul dir = "auto">
   <li>☕OOP Concepts - Community Member Management System class defines specific behaviors, such as adding, deleting, or updating member records. Encapsulating or grouping these methods with the data they operate on, helps to isolate functionality and makes the code modular and reusable. </li>
-  <li>Polymorphism</li>
-  <li>Abstraction</li>
-  <li>Inheritance</li>
+  <li>💡Tkinter Library for GUI - Buttons, labels, and text fields were utilized to create an interactive user interface. Used to create input forms for adding or updating member details, buttons for commands like search, delete, and displays for member information.</li>
+  <li>🗃️ MySQL Database - Program interacts with a database to store and retrieve member data. Python's sqlite3 or mysql.connector libraries allow connection to databases, enabling data storage beyond the program's runtime. SQL commands like insert, select, update, and delete manage the records efficiently.</li>
+  <li>⏰ Time - Used to provide accurate date and time information.</li>
+  <li>🌈 Themes - Used themes form Tkinter Library to make it more aesthetic. </li>
 </ul>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">Chosen SDG</h2>
+  <h2 tabindex="-1" class="heading-element" dir="auto">🌏Chosen SDG</h2>
 </div>
 <p dir = "auto">
-  <h3>SDG 4 : Quality Education</h3><br>
-    SDG 4: Quality Education focuses on ensuring inclusive and equitable quality education for all and promoting lifelong learning opportunities. According to the official site of the United Nation's SDG Organization, The world is falling far behind in achieving quality education.
+  <h3>🌇SDG 11 : Sustainable Cities and Communities</h3><br>
+    This goal focuses on making cities inclusive, safe, resilient, and sustainable, which includes initiatives for building strong communities, promoting local involvement, and fostering sustainability at the community level. 
   <br>
   <br>
-    The inspiration behind creating a quiz program stems from this goal. It's like you're engaging people in an interactive way to spread awareness about other Sustainable Development Goals.
+    By providing a system to manage and track community involvement in events, volunteer programs, or sustainability initiatives, your project supports these aims by helping organizations and local governments strengthen community engagement and participation.
 </p>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">Instructions on Running the Program</h2>
+  <h2 tabindex="-1" class="heading-element" dir="auto">⚙️Instructions on Running the Program</h2>
 </div>
 <ol dir = "auto">
-  <li>Open your IDE</li>
-  <li>Create the project</li>
-  <li>Add the Program Files</li>
-  <li>Compile the Program</li>
-  <li>Run the Program</li>
-  <li>Play the Quiz</li>
-  <li>View Results</li>
+  <li>📚 Download the Libraries : 💡Tkinter and 🗃️MySQL Workbench</li>
+  <li>⬇️ Set-up your 🗃️MySQL.</li>
+  <li>🛑 Make sure your 🗃️MySQL is running in the background.</li>
+  <li>📩Create the projec</li>
+  <li>⏬Add the Program Files</li>
+  <li>🔄Compile the Program</li>
+  <li>▶️Run the Program</li>
+  <li>❗Make sure to remember your password! The format will always be localhost, root, {password} </li>
 </ol>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
   <h2 tabindex="-1" class="heading-elemen" dir="auto">Acknowledgment</h2>
 </div>
 <ul>
-  <li>One of the Best Professor sa OOP : Sir Jayson (yie baka ma-uno <3)</li>
+  <li>Our beloved 🎀cute-princess-kawaii🎀 Professor : Ma'am Fatima</li>
   <li>Sa mga aso namin : Ulap, Tala, Ulan, Sinag, at Nyebe</li>
   <li>Sa laptop ko, for not giving up on me</li>
+  <li>Kay Indian Guy sa YouTube</li>
+  <li>Kay Kim Chaewon na naghihintay sa'kin sa bahay</li>
 </ul>
 <hr></hr>
 <h1>UNO QT!</h1>
