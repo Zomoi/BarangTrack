@@ -1,5 +1,5 @@
 <p align = "center" dir = "auto">
-<img src="https://github.com/Zomoi/Final-Proj-in-OOP/blob/33f0d5ec3c96293fab262293d4aae986d9cb0cb1/output-onlinepngtools.png](https://github.com/Zomoi/Final-Proj-in-Python-and-DBMS/blob/a705c33a5f9267606c4414338a4c181ef9610f1f/pxArt%20(3).png" width="100">
+<img src="https://github.com/Zomoi/Final-Proj-in-Python-and-DBMS/blob/a705c33a5f9267606c4414338a4c181ef9610f1f/pxArt%20(3).png" width="100">
 </p>
 
 <h1 align = "center" tabindex="-1" class="heading element" dir="auto">Sustainable Development Goals Quiz</h1>
