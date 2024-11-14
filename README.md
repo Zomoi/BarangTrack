@@ -16,13 +16,13 @@
   </a>
 </p>
 <hr></hr>
-<h2>About</h2>
+<h2>🔍About</h2>
 <ul dir="auto">
   <li>
     <a href="#-project-overview">Project Overview</a>
   </li>
   <li>
-    <a href="#-OOP-principles">OOP Principles</a>
+    <a href="#-python-concepts">Python Concepts</a>
   </li>
   <li>
     <a href="#-SDG">Chosen SDG</a>
@@ -36,17 +36,17 @@
 </ul>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">Project Overview</h2>
+  <h2 tabindex="-1" class="heading-element" dir="auto">📖Project Overview📖</h2>
 </div>
 <p dir = "auto">
-  This Java console-based quiz application tests user's knowledge on the United Nations Sustainable Developmental Goals through multiple-choice questions.
+    This Community Management System is designed to assist local governments, non-profits, and community organizations in efficiently managing and tracking the involvement of community members across a range of programs. By centralizing data on member participation, volunteer hours, and engagement in sustainability initiatives, the system aims to foster greater community involvement and accountability. The system allows for easy access to data such as attendance at events, roles in volunteer programs, and contributions to sustainability projects, empowering organizations to make informed decisions, recognize dedicated individuals, and allocate resources more effectively for community growth and engagement.
 </p>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">OOP Principles</h2>
+  <h2 tabindex="-1" class="heading-element" dir="auto">🐍Python Concepts🐍</h2>
 </div>
 <ul dir = "auto">
-  <li>Encapsulation</li>
+  <li>☕OOP Concepts - Community Member Management System class defines specific behaviors, such as adding, deleting, or updating member records. Encapsulating or grouping these methods with the data they operate on, helps to isolate functionality and makes the code modular and reusable. </li>
   <li>Polymorphism</li>
   <li>Abstraction</li>
   <li>Inheritance</li>
