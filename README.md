@@ -5,7 +5,7 @@
 <h1 align = "center" tabindex="-1" class="heading element" dir="auto">If you have Ambag, you get the Bag</h1>
 <p align = "center" dir= "auto">
 <em>
-<code> :night_with_stars: A Community Management System :night_with_stars: </code>
+:night_with_stars: <code> A Community Management System </code> :night_with_stars:
 </em>
 </p>
 <p align = "center" dir="auto">
