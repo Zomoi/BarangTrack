@@ -2,7 +2,7 @@
 <img src="https://github.com/Zomoi/Final-Proj-in-Python-and-DBMS/blob/a705c33a5f9267606c4414338a4c181ef9610f1f/pxArt%20(3).png" width="100">
 </p>
 
-<h1 align = "center" tabindex="-1" class="heading element" dir="auto">👁️BarangTrack👁️</h1>
+<h1 align = "center" tabindex="-1" class="heading element" dir="auto">BarangTrack</h1>
 <p align = "center" dir= "auto">
 <em>
 <code>♻️A Community Management System♻️</code>
