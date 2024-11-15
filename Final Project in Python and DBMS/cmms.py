@@ -82,10 +82,10 @@ def update_member():
     update_member_button = ttk.Button(update_window, text = 'UPDATE MEMBER', command = update_data) # BUTTONS YO!!
     update_member_button.grid(row = 10, columnspan = 2, pady = 10)
 
-    indexing = memberTable.focus() # selected data
+    indexing = memberTable.focus() # retrieves the index of the currently selected row.
     content = memberTable.item(indexing) # will give us the content
     listdata = content['values'] # all value selected from specific ID
-    idEntry.insert(0, listdata[0])
+    idEntry.insert(0, listdata[0]) # these are all the corresponding value into each form field
     nameEntry.insert(0, listdata[1])
     mobilenoEntry.insert(0, listdata[2])
     emailEntry.insert(0, listdata[3])
@@ -130,7 +130,7 @@ def search_member():
                 SELECT * FROM member 
                 WHERE id=%s OR name=%s OR mobile=%s OR email=%s OR gender=%s 
                 OR address=%s OR age=%s OR volunteer_hours=%s OR activity=%s OR volunteer_role=%s
-                '''
+                ''' #%s are placeholders
         mycursor.execute(query,(
                 idEntry.get(), nameEntry.get(), mobilenoEntry.get(), emailEntry.get(),
                 genderEntry.get(), addressEntry.get(), ageEntry.get(),
@@ -218,14 +218,14 @@ def add_member():
             nameEntry.delete(0, END)
             mobilenoEntry.delete(0, END)
             emailEntry.delete(0, END)
-            genderEntry.delete(0, END)
+            genderEntry.delete(0, END) # this will delete if the user pressed yes
             addressEntry.delete(0, END)
             ageEntry.delete(0, END)
             vhEntry.delete(0, END)
             activityEntry.delete(0, END)
             vrEntry.delete(0, END)
           else: 
-            pass
+            pass # remains unchanged
         except:
           messagebox.showerror('Error', 'ID cannot be repeated', parent = add_window)
           return 
