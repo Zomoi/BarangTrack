@@ -99,12 +99,12 @@ def update_member():
 
 
 def show_member():
-    query = 'select * from member'
-    mycursor.execute(query)
-    fetched_data = mycursor.fetchall()
-    memberTable.delete(*memberTable.get_children())
-    for data in fetched_data:
-      memberTable.insert('', END, values = data)
+    query = 'select * from member' # command to call all the data
+    mycursor.execute(query) # executes the query
+    fetched_data = mycursor.fetchall() # receives the called data
+    memberTable.delete(*memberTable.get_children()) # delete the previous called data 
+    for data in fetched_data: # this converts the data into lists.
+        memberTable.insert('', END, values = data) # inserts the data inside
 
 
 def delete_member():
@@ -230,12 +230,7 @@ def add_member():
           messagebox.showerror('Error', 'ID cannot be repeated', parent = add_window)
           return 
 
-      query = 'select * from member' # command to call all the data
-      mycursor.execute(query) # executes the query
-      fetched_data = mycursor.fetchall() # receives the called data
-      memberTable.delete(*memberTable.get_children()) # delete the previous called data 
-      for data in fetched_data: # this converts the data into lists.
-          memberTable.insert('', END, values = data) # inserts the data inside
+          show_member()
 
 
    add_window = Toplevel()
