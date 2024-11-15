@@ -61,7 +61,7 @@
     This goal focuses on making cities inclusive, safe, resilient, and sustainable, which includes initiatives for building strong communities, promoting local involvement, and fostering sustainability at the community level. 
   <br>
   <br>
-    By providing a system to manage and track community involvement in events, volunteer programs, or sustainability initiatives, your project supports these aims by helping organizations and local governments strengthen community engagement and participation.
+    By providing a system to manage and track community involvement in events, volunteer programs, or sustainability initiatives, this project supports these aims by helping organizations and local governments strengthen community engagement and participation.
 </p>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
