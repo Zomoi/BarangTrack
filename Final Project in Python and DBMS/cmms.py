@@ -14,15 +14,15 @@ def iexit():
 
 def update_member():
 
-  def update_data():
-    query = 'update member set name=%s, mobile=%s, email=%s, gender=%s, address=%s, age=%s, volunteer_hours=%s, activity=%s, volunteer_role=%s, added_date=%s, added_time=%s where id =%s'
-    mycursor.execute(query,(nameEntry.get(), mobilenoEntry.get(), 
-    emailEntry.get(), genderEntry.get(), addressEntry.get(), ageEntry.get(),
-    vhEntry.get(), activityEntry.get(), vrEntry.get(), date, currenttime,idEntry.get()))
-    con.commit()
-    messagebox.showinfo('Success',f'ID {idEntry.get()} is modified successfully!', parent = update_window)
-    update_window.destroy()
-    show_member()
+    def update_data():
+      query = 'update member set name=%s, mobile=%s, email=%s, gender=%s, address=%s, age=%s, volunteer_hours=%s, activity=%s, volunteer_role=%s, added_date=%s, added_time=%s where id =%s'
+      mycursor.execute(query,(nameEntry.get(), mobilenoEntry.get(), 
+      emailEntry.get(), genderEntry.get(), addressEntry.get(), ageEntry.get(),
+      vhEntry.get(), activityEntry.get(), vrEntry.get(), date, currenttime,idEntry.get()))
+      con.commit()
+      messagebox.showinfo('Success',f'ID {idEntry.get()} is modified successfully!', parent = update_window)
+      update_window.destroy()
+      show_member()
 
 
     update_window = Toplevel()
