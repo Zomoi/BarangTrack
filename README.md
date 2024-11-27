@@ -126,15 +126,65 @@
   <h2 tabindex="-1" class="heading-element" dir="auto">⚙️Instructions on Running the Program</h2>
 </div>
 <ol dir = "auto">
-  <li>📚 Download the Libraries : 💡Tkinter and 🗃️MySQL Workbench</li>
-  <li>⬇️ Set-up your 🗃️MySQL.</li>
-  <li>🛑 Make sure your 🗃️MySQL is running in the background.</li>
-  <li>📩Create the projec</li>
-  <li>⏬Add the Program Files</li>
-  <li>🔄Compile the Program</li>
-  <li>▶️Run the Program</li>
-  <li>❗Make sure to remember your password! The format will always be localhost, root, {password} </li>
-</ol>
+  <ul dir="auto">
+  <li>
+    <h2>🚀 Running the Community Member Management System</h2>
+  </li>
+  <li>
+    <h3>Step 1: Clone or Download the Project</h3>
+    <p>Clone the repository to your local machine using Git:</p>
+    <pre>
+      <code>git clone &lt;your-repository-url&gt;</code>
+    </pre>
+    <p>OR</p>
+    <p>Download the project files as a ZIP and extract them to your preferred folder.</p>
+  </li>
+  <li>
+    <h3>Step 2: Install Required Libraries 📦</h3>
+    <p>Ensure Python is installed on your system. Then, open your terminal or command prompt and install the required libraries:</p>
+    <pre>
+      <code>pip install ttkthemes</code><br>
+      <code>pip install pymysql</code>
+    </pre>
+  </li>
+  <li>
+    <h3>Step 3: Set Up MySQL Database 🗃️</h3>
+    <p>Open MySQL Workbench or any MySQL client tool.</p>
+    <p>Create a new database using this command:</p>
+    <pre>
+      <code>CREATE DATABASE community_management;</code>
+    </pre>
+    <p>Run the table creation and initialization script provided in the project (e.g., <code>schema.sql</code>) to set up the required tables.</p>
+  </li>
+  <li>
+    <h3>Step 4: Update the Database Connection Details 🔗</h3>
+    <p>In the Python script, update the database connection details (host, username, password) to match your MySQL server configuration:</p>
+    <pre>
+      <code>
+connection = pymysql.connect(
+    host='localhost',
+    user='root',
+    password='your_password', (password is the only thing that is different)
+);
+      </code>
+    </pre>
+  </li>
+  <li>
+    <h3>Step 5: Run the Program ▶️</h3>
+    <p>Navigate to the project folder in your terminal or command prompt and execute the main Python file:</p>
+    <pre>
+      <code>python main.py</code>
+    </pre>
+  </li>
+  <li>
+    <h3>Notes:</h3>
+    <ul>
+      <li>Ensure your MySQL server is running before starting the program.</li>
+      <li>Always save a backup of your database to avoid data loss during testing.</li>
+      <li>Use the GUI to manage members, track activities, and perform all available features.</li>
+    </ul>
+  </li>
+</ul>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
   <h2 tabindex="-1" class="heading-elemen" dir="auto">Acknowledgment</h2>
