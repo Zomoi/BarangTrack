@@ -115,6 +115,7 @@
 </div>
 <p dir = "auto">
   <h3>🌇SDG 11 : Sustainable Cities and Communities</h3><br>
+<img src="https://github.com/Zomoi/BarangTrack/blob/6a3f287869f3795bc12916f7913feb5ec4299c26/sdg11.jpg" width="1000">
     This goal focuses on making cities inclusive, safe, resilient, and sustainable, which includes initiatives for building strong communities, promoting local involvement, and fostering sustainability at the community level. 
   <br>
   <br>
