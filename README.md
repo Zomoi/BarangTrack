@@ -134,7 +134,7 @@
     <h3>Step 1: Clone or Download the Project</h3>
     <p>Clone the repository to your local machine using Git:</p>
     <pre>
-      <code>git clone &lt;your-repository-url&gt;</code>
+      <code>git clone https://github.com/Zomoi/BarangTrack.git</code>
     </pre>
     <p>OR</p>
     <p>Download the project files as a ZIP and extract them to your preferred folder.</p>
@@ -150,11 +150,6 @@
   <li>
     <h3>Step 3: Set Up MySQL Database 🗃️</h3>
     <p>Open MySQL Workbench or any MySQL client tool.</p>
-    <p>Create a new database using this command:</p>
-    <pre>
-      <code>CREATE DATABASE community_management;</code>
-    </pre>
-    <p>Run the table creation and initialization script provided in the project (e.g., <code>schema.sql</code>) to set up the required tables.</p>
   </li>
   <li>
     <h3>Step 4: Update the Database Connection Details 🔗</h3>
@@ -173,24 +168,23 @@ connection = pymysql.connect(
     <h3>Step 5: Run the Program ▶️</h3>
     <p>Navigate to the project folder in your terminal or command prompt and execute the main Python file:</p>
     <pre>
-      <code>python main.py</code>
+      <code>python login.py or cmms.py</code>
     </pre>
   </li>
   <li>
     <h3>Notes:</h3>
     <ul>
       <li>Ensure your MySQL server is running before starting the program.</li>
-      <li>Always save a backup of your database to avoid data loss during testing.</li>
       <li>Use the GUI to manage members, track activities, and perform all available features.</li>
     </ul>
   </li>
 </ul>
 <hr></hr>
 <div class ="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-elemen" dir="auto">Acknowledgment</h2>
+  <h2 tabindex="-1" class="heading-elemen" dir="auto">💮Acknowledgment💮</h2>
 </div>
 <ul>
-  <li>Our beloved 🎀cute-princess-kawaii🎀 Professor : Ma'am Fatima</li>
+  <li>Our beloved 🎀BINI Maloi or kung sino man ang bias mo Ma'am🎀 Professor : Ma'am Fatima</li>
   <li>Sa mga aso namin : Ulap, Tala, Ulan, Sinag, at Nyebe</li>
   <li>Sa laptop ko, for not giving up on me</li>
   <li>Kay Indian Guy sa YouTube</li>
@@ -198,4 +192,6 @@ connection = pymysql.connect(
 </ul>
 <hr></hr>
 <h1>UNO QT!</h1>
+
+![maloi](https://github.com/user-attachments/assets/a78a1102-2cf7-431d-9519-584465942e25)
 
