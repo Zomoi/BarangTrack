@@ -5,7 +5,7 @@
 <h1 align = "center" tabindex="-1" class="heading element" dir="auto">BarangTrack</h1>
 <p align = "center" dir= "auto">
 <em>
-<h2 align = "center" tabindex="-1" class="heading element" dir="auto">Connecting People, Empowering Communities.</h2>
+<h2>Connecting People, Empowering Communities.</h2>
 <code>♻️A Community Member Management System♻️</code>
 </em>
 </p>
