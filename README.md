@@ -66,7 +66,7 @@
     <h2>📑 Polymorphism</h2>
     <p>The system demonstrates polymorphism in handling diverse GUI widgets and data entries. For example:</p>
     <ul>
-      <li>Each frame, button, and input field is created using Tkinter objects, with customized behavior for different operations (e.g., adding members, searching, or exporting data).</li>
+      <li>Each frame, button, and input field is created using Tkinter objects, with customized behavior for different operations (e.g., adding members, or searching members).</li>
       <li>Multiple functions like <code>add_member()</code> and <code>search_member()</code> dynamically modify GUI elements based on the operation being performed.</li>
     </ul>
   </li>
