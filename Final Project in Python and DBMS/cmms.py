@@ -141,7 +141,7 @@ def search_member():
           memberTable.insert('', END, values = data)
 
     search_window = Toplevel()
-    search_window.title('Search Student')
+    search_window.title('Search Member')
     search_window.grab_set() # you can't type to anything aside from the window you opened. 
     search_window.resizable(False,False)
     idLabel = Label(search_window,text = 'ID', font =('times new roman',20,'bold'))
